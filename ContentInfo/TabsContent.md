@@ -1,4 +1,7 @@
-## Home Tab
+## Tabs of website
+
+
+## Home
 
 - [ ] The overall introduction of Center for Global Infectonary Disease Monitoring
 - [ ] relavant pictures
