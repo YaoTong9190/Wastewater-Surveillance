@@ -2,7 +2,10 @@
 
 This is the website for Center for Global Infectonary Disease Monitoring
 
-# Upcoming issues
+# Upcoming Tasks
 
-- [ ] Required Information for Website By 6.23
-- []
+- [x] Inform Required Information for Website By 6.23
+- [ ] Baic Front-end frame excluding dashboard tab
+- [ ] Include dashborad
+- [ ] Receive website infos
+- [ ] Final touch-ups
