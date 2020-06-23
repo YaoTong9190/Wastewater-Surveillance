@@ -8,6 +8,14 @@ This is the website for Center for Global Infectonary Disease Monitoring
 
 ### Basic Front-end frame excluding dashboard tab By 7.6
 
+- Home
+- Faculty
+- Projects
+- Partnership
+- Publications
+- Dashboard
+- Contact Form
+
 ### Include dashborad
 
 ### Receive website infos
