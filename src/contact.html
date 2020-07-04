@@ -27,7 +27,7 @@
     <div class="container-fluid mt-5">
         <ul class="nav nav-tabs d-flex justify-content-center" id="myTab" role="tablist">
             <li class="nav-item px-3" role="presentation" href="#">
-                <a class="nav-item nav-link active" href="#" aria-controls="home" aria-selected="true">HOME</a>
+                <a class="nav-item nav-link" href="index.html" aria-controls="home" aria-selected="true">HOME</a>
             </li>
             <li class="nav-item px-3" role="presentation">
                 <a class="nav-item nav-link" href="people.html" aria-controls="profile" aria-selected="false">PEOPLE</a>
@@ -40,98 +40,75 @@
                     aria-controls="settings" aria-selected="false">PARTNERSHIPS</a>
             </li>
             <li class="nav-item px-3" role="presentation">
-                <a class="nav-link" href="publications.html" aria-controls="settings"
+                <a class="nav-item nav-link" href="publications.html" aria-controls="settings"
                     aria-selected="false">PUBLICATIONS</a>
             </li>
             <li class="nav-item px-3" role="presentation">
-                <a class="nav-link" id="settings-tab" data-toggle="tab" href="#settings" role="tab"
-                    aria-controls="settings" aria-selected="false">DASHBOARD</a>
+                <a class="nav-link" href="#" aria-controls="settings" aria-selected="false">DASHBOARD</a>
             </li>
             <li class="nav-item px-3" role="presentation">
-                <a class="nav-link" href="contact.html" aria-controls="settings" aria-selected="false">CONTACT US</a>
+                <a class="nav-item nav-link active" href="#" aria-controls="settings" aria-selected="false">CONTACT
+                    US</a>
             </li>
         </ul>
     </div>
-    <!--jumbotron-->
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <h2 class="display-4">Center for
-                Global Infectonary Disease
-                Monitoring</h2>
-            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+    <div class="container d-flex justify-content-center">
+        <div class="container col-12 p-5">
+            <div class="row mt">
+                <div class="col-6 ">
+                    <h3>CONTACT ME</h3>
+                    <hr>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                        when
+                        looking at its layout.</p>
+                </div>
+            </div>
+            <div class="row mt">
+                <div class="col-6 ">
+                    <form class="contact-form php-mail-form" role="form" action="contactform/contactform.php"
+                        method="POST">
+
+                        <div class="form-group">
+                            <input type="name" name="name" class="form-control" id="contact-name"
+                                placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                            <div class="validate"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" class="form-control" id="contact-email"
+                                placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
+                            <div class="validate"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="subject" class="form-control" id="contact-subject"
+                                placeholder="Subject" data-rule="minlen:4"
+                                data-msg="Please enter at least 8 chars of subject">
+                            <div class="validate"></div>
+                        </div>
+
+                        <div class="form-group">
+                            <textarea class="form-control" name="message" id="contact-message"
+                                placeholder="Your Message" rows="5" data-rule="required"
+                                data-msg="Please write something for us"></textarea>
+                            <div class="validate"></div>
+                        </div>
+
+                        <div class="loading"></div>
+                        <div class="error-message"></div>
+                        <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                        <div class="form-send">
+                            <button type="submit" class="btn btn-large" id="btn-change">Send Message</button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+            <!-- /row -->
         </div>
     </div>
-    <!--main body-->
-    <div class="container ">
-        <h3 class="d-flex justify-content-center">WHO WE ARE</h3>
-        <hr>
-        <div class="row">
-            <div class="d-flex justify-content-end col-6 col-md-6 ">
-                <img class="m-5" src="imgs/image_preview.jpeg" alt="">
-            </div>
-            <div class="d-flex justify-content-start col-6 col-md-6">
-                <div class="container">
-                    <p class="m-5">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. At assumenda corrupti corporis
-                        voluptatem
-                        soluta labore sit ex, debitis accusamus esse quos, dolores facilis deserunt accusantium impedit
-                        fuga, quae fugiat. Suscipit! Lorem ipsum, dolor sit amet consectetur adipisicing elit. At
-                        assumenda
-                        corrupti corporis voluptatem
-                        soluta labore sit ex, debitis accusamus esse quos, dolores facilis deserunt accusantium impedit
-                        fuga, quae fugiat. Suscipit!
-                    </p>
-                </div>
 
-            </div>
-        </div>
-        <h3 class="d-flex justify-content-center">WHO WE ARE</h3>
-        <hr>
-
-        <div class="row">
-            <div class="d-flex justify-content-end col-6 col-md-6">
-                <div class="container">
-                    <p class="m-5">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. At assumenda corrupti corporis
-                        voluptatem
-                        soluta labore sit ex, debitis accusamus esse quos, dolores facilis deserunt accusantium impedit
-                        fuga, quae fugiat. Suscipit! Lorem ipsum, dolor sit amet consectetur adipisicing elit. At
-                        assumenda
-                        corrupti corporis voluptatem
-                        soluta labore sit ex, debitis accusamus esse quos, dolores facilis deserunt accusantium impedit
-                        fuga, quae fugiat. Suscipit!
-                    </p>
-                </div>
-
-            </div>
-            <div class="d-flex justify-content-start col-6 col-md-6 ">
-                <img class="m-5" src="imgs/image_preview.jpeg" alt="">
-            </div>
-
-        </div>
-        <h3 class="d-flex justify-content-center">WHO WE ARE</h3>
-        <hr>
-
-        <div class="row">
-            <div class="d-flex justify-content-end col-6 col-md-6 ">
-                <img class="m-5" src="imgs/image_preview.jpeg" alt="">
-            </div>
-            <div class="d-flex justify-content-start col-6 col-md-6">
-                <div class="container">
-                    <p class="m-5">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. At assumenda corrupti corporis
-                        voluptatem
-                        soluta labore sit ex, debitis accusamus esse quos, dolores facilis deserunt accusantium impedit
-                        fuga, quae fugiat. Suscipit! Lorem ipsum, dolor sit amet consectetur adipisicing elit. At
-                        assumenda
-                        corrupti corporis voluptatem
-                        soluta labore sit ex, debitis accusamus esse quos, dolores facilis deserunt accusantium impedit
-                        fuga, quae fugiat. Suscipit!
-                    </p>
-                </div>
-
-            </div>
-        </div>
+    <!-- /container -->
+    <div class="container" style="height: 50px;">
     </div>
 
     <!--footer-->
