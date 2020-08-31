@@ -1,5 +1,5 @@
 /*
-
+intro on 
 */
 
 #whoarewe {
@@ -9,7 +9,22 @@
   margin-left: -50px;
   font-size: 18px;
 }
+/*
+operations
+*/
+.list-group {
+  max-height: 300px;
+  margin-bottom: 10px;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+#operation-intro {
+  -moz-box-shadow: 0 0 5px #888;
+  -webkit-box-shadow: 0 0 5px#888;
+  box-shadow: 0 0 5px #888;
 
+  font-size: 24px;
+}
 #grey {
   padding-top: 60px;
   padding-bottom: 60px;
